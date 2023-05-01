@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Bobby Flay",
+        "image": "https://i0.wp.com/thechefsconnection.com/wp-content/uploads/2014/06/bobby-flay_profile_2017.jpg",
+        "year_of_experience": 30,
+        "number_of_recipes": 5,
+        "likes": 50000
+      },
+      {
+        "id": 2,
+        "name": "Ina Garten",
+        "image": "https://www.ocregister.com/wp-content/uploads/migration/nxb/nxb9bj-b88548373z.120151104140251000ghhcq3hn.10.jpg?w=620",
+        "year_of_experience": 40,
+        "number_of_recipes": 7,
+        "likes": 30000
+      },
+      {
+        "id": 3,
+        "name": "Gordon Ramsay",
+        "image": "https://assets.foxdcg.com/dpp-uploaded/images/hells-kitchen/keyart_s23.jpg",
+        "year_of_experience": 25,
+        "number_of_recipes": 6,
+        "likes": 40000
+      },
+      {
+        "id": 4,
+        "name": "Mario Batali",
+        "image": "https://www.naplesillustrated.com/wp-content/uploads/sites/82/2016/05/mario-batali-6.jpg",
+        "year_of_experience": 25,
+        "number_of_recipes": 3,
+        "likes": 25000
+      },
+      {
+        "id": 5,
+        "name": "Stephanie Izard",
+        "image": "https://fwclassic.wpenginepowered.com/wp-content/uploads/2018/11/Stephanie-Izard-Headshot.jpg",
+        "year_of_experience": 12,
+        "number_of_recipes": 4,
+        "likes": 20000
+      },
+      {
+        "id": 6,
+        "name": "Stephanie Boswell",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVZGza-09AE0Ev8Kbv_BBiZrk2u5ufdn5yWAyTQO27wBUvTpAXpsg8GvWUMfDo2lk1SnM&usqp=CAU",
+        "year_of_experience": 30,
+        "number_of_recipes": 300,
+        "likes": 35000
+      }
+]
