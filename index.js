@@ -22,9 +22,16 @@ app.get('/recipes', (req, res) => {
 
 app.get('/chefs/:id', (req, res) => {
     const id = req.params.id;
+    const chefInfo = chefs.find(chef => chef.id == id);
+    res.send(chefInfo);
+})
+
+app.get('/recipes/:id', (req, res) => {
+    const id = req.params.id;
     const chefsRecipe = recipes.filter(r => r.chef_id == id);
     res.send(chefsRecipe);
 })
+
 
 app.listen(port, () => {
     console.log(`Listening to the port ${port}`);
