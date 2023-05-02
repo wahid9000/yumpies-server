@@ -1,0 +1,272 @@
+[
+    {
+        "id": 105,
+        "chef_id": 1,
+        "recipe_name": "Grilled Rib Eye Steak",
+        "ingredients": [
+            "Rib eye steak",
+            "Olive oil",
+            "Kosher salt",
+            "Black pepper",
+            "Garlic",
+            "Rosemary sprigs"
+        ],
+        "cooking_method": "Grilling",
+        "ratings": 4.5
+    },
+    {
+        "id": 243,
+        "chef_id": 1,
+        "recipe_name": "Cajun Chicken Alfredo",
+        "ingredients": [
+            "Fettuccine",
+            "Chicken breast",
+            "Heavy cream",
+            "Parmesan cheese",
+            "Garlic",
+            "Cajun seasoning"
+        ],
+        "cooking_method": "Boiling, sautéing",
+        "ratings": 4.8
+    },
+    {
+        "id": 371,
+        "chef_id": 1,
+        "recipe_name": "BBQ Pulled Pork Sandwich",
+        "ingredients": [
+            "Pork shoulder",
+            "BBQ sauce",
+            "Brown sugar",
+            "Cider vinegar",
+            "Worcestershire sauce",
+            "Hamburger buns"
+        ],
+        "cooking_method": "Slow cooking, shredding",
+        "ratings": 4.3
+    },
+    {
+        "id": 498,
+        "chef_id": 2,
+        "recipe_name": "Shrimp Scampi",
+        "ingredients": [
+            "Linguine",
+            "Shrimp",
+            "Butter",
+            "Garlic",
+            "Lemon juice",
+            "Parsley"
+        ],
+        "cooking_method": "Sautéing",
+        "ratings": 4.6
+    },
+    {
+        "id": 619,
+        "chef_id": 2,
+        "recipe_name": "Mac and Cheese",
+        "ingredients": [
+            "Elbow macaroni",
+            "Cheddar cheese",
+            "Butter",
+            "Milk",
+            "Flour",
+            "Breadcrumbs"
+        ],
+        "cooking_method": "Boiling, baking",
+        "ratings": 4.4
+    },
+    {
+        "id": 752,
+        "chef_id": 2,
+        "recipe_name": "England Clam Chowder",
+        "ingredients": [
+            "Clams",
+            "Bacon",
+            "Potatoes",
+            "Onion",
+            "Heavy cream",
+            "Thyme"
+        ],
+        "cooking_method": "Boiling, simmering",
+        "ratings": 4.7
+    },
+    {
+        "id": 890,
+        "chef_id": 3,
+        "recipe_name": "Southern Fried Chicken",
+        "ingredients": [
+            "Chicken drumsticks",
+            "Buttermilk",
+            "Flour",
+            "Paprika",
+            "Garlic powder",
+            "Cayenne pepper"
+        ],
+        "cooking_method": "Frying",
+        "ratings": 4.2
+    },
+    {
+        "id": 1024,
+        "chef_id": 3,
+        "recipe_name": "Beef Chili",
+        "ingredients": [
+            "Ground beef",
+            "Kidney beans",
+            "Tomatoes",
+            "Onion",
+            "Bell pepper",
+            "Chili powder"
+        ],
+        "cooking_method": "Simmering",
+        "ratings": 4.5
+    },
+    {
+        "id": 1155,
+        "chef_id": 3,
+        "recipe_name": "Buffalo Chicken Wings",
+        "ingredients": [
+            "Chicken wings",
+            "Hot sauce",
+            "Butter",
+            "Garlic powder",
+            "Ranch dressing",
+            "Celery sticks"
+        ],
+        "cooking_method": "Frying, tossing",
+        "ratings": 4.9
+    },
+    {
+        "id": 1289,
+        "chef_id": 4,
+        "recipe_name": "California Sushi Roll",
+        "ingredients": [
+            "Sushi rice",
+            "Nori sheets",
+            "Imitation crab",
+            "Cucumber",
+            "Avocado",
+            "Sesame seeds"
+        ],
+        "cooking_method": "Rolling, slicing",
+        "ratings": 4.6
+    },
+    {
+        "id": 1410,
+        "chef_id": 4,
+        "recipe_name": "Philly Cheesesteak",
+        "ingredients": [
+            "Rib eye steak",
+            "Hoagie rolls",
+            "Onion",
+            "Green bell pepper",
+            "Provolone cheese",
+            "Mayonnaise"
+        ],
+        "cooking_method": "Sautéing, grilling",
+        "ratings": 4.3
+    },
+    {
+        "id": 1543,
+        "chef_id": 4,
+        "recipe_name": "Pecan Pie",
+        "ingredients": [
+            "Pie crust",
+            "Pecans",
+            "Brown sugar",
+            "Corn syrup",
+            "Butter",
+            "Vanilla extract"
+        ],
+        "cooking_method": "Baking",
+        "ratings": 4.7
+    },
+    {
+        "id": 1676,
+        "chef_id": 5,
+        "recipe_name": "Baked Potato",
+        "ingredients": [
+            "Potatoes",
+            "Butter",
+            "Sour cream",
+            "Cheddar cheese",
+            "Bacon",
+            "Chives"
+        ],
+        "cooking_method": "Baking",
+        "ratings": 4.2
+    },
+    {
+        "id": 1808,
+        "chef_id": 5,
+        "recipe_name": "Chicago Deep Dish Pizza",
+        "ingredients": [
+            "Pizza dough",
+            "Mozzarella cheese",
+            "Tomato sauce",
+            "Italian sausage",
+            "Pepperoni",
+            "Green bell pepper"
+        ],
+        "cooking_method": "Baking",
+        "ratings": 4.8
+    },
+    {
+        "id": 1936,
+        "chef_id": 5,
+        "recipe_name": "Fried Catfish",
+        "ingredients": [
+            "Catfish fillets",
+            "Cornmeal",
+            "Flour",
+            "Cajun seasoning",
+            "Hot sauce",
+            "Lemon wedges"
+        ],
+        "cooking_method": "Frying",
+        "ratings": 4.5
+    },
+    {
+        "id": 2065,
+        "chef_id": 6,
+        "recipe_name": "Banana Bread",
+        "ingredients": [
+            "Ripe bananas",
+            "Flour",
+            "Sugar",
+            "Egg",
+            "Butter",
+            "Baking soda"
+        ],
+        "cooking_method": "Baking",
+        "ratings": 4.4
+    },
+    {
+        "id": 9854,
+        "chef_id": 6,
+        "recipe_name": "New England Clam Chowder",
+        "ingredients": [
+            "Clams",
+            "Bacon",
+            "Potatoes",
+            "Onion",
+            "Celery",
+            "Heavy cream"
+        ],
+        "cooking_method": "Simmering",
+        "ratings": 4.2
+    },
+    {
+        "id": 2334,
+        "chef_id": 6,
+        "recipe_name": "Cajun Shrimp Pasta",
+        "ingredients": [
+            "Shrimp",
+            "Penne pasta",
+            "Heavy cream",
+            "Butter",
+            "Garlic",
+            "Cajun seasoning"
+        ],
+        "cooking_method": "Boiling, sautéing",
+        "ratings": 4.7
+    }
+]

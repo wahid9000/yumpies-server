@@ -2,9 +2,9 @@
     {
         "id": 1,
         "name": "Bobby Flay",
-        "image": "https://i0.wp.com/thechefsconnection.com/wp-content/uploads/2014/06/bobby-flay_profile_2017.jpg",
+        "image": "https://cdn.britannica.com/95/172795-050-4200E6D1/Bobby-Flay.jpg",
         "year_of_experience": 30,
-        "number_of_recipes": 5,
+        "number_of_recipes": 3,
         "likes": 50000
       },
       {
@@ -12,15 +12,15 @@
         "name": "Ina Garten",
         "image": "https://www.ocregister.com/wp-content/uploads/migration/nxb/nxb9bj-b88548373z.120151104140251000ghhcq3hn.10.jpg?w=620",
         "year_of_experience": 40,
-        "number_of_recipes": 7,
+        "number_of_recipes": 3,
         "likes": 30000
       },
       {
         "id": 3,
         "name": "Gordon Ramsay",
-        "image": "https://assets.foxdcg.com/dpp-uploaded/images/hells-kitchen/keyart_s23.jpg",
+        "image": "https://www.hbgacademic.com/wp-content/uploads/2017/06/GR.jpg?resize=500%2C700",
         "year_of_experience": 25,
-        "number_of_recipes": 6,
+        "number_of_recipes": 3,
         "likes": 40000
       },
       {
@@ -34,9 +34,9 @@
       {
         "id": 5,
         "name": "Stephanie Izard",
-        "image": "https://fwclassic.wpenginepowered.com/wp-content/uploads/2018/11/Stephanie-Izard-Headshot.jpg",
+        "image": "https://scontent.fdac45-1.fna.fbcdn.net/v/t39.30808-6/272681235_487403736074293_2270649130713777546_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEtARQLPUpBvbM-F8A5HKiGkCz8o9K4OVSQLPyj0rg5VFIUXmLckalSUQ9DHNebzu2JuhSnAM_t4JoR7z2HOR1_&_nc_ohc=Nhms_sE3-c0AX-Uc5Ph&_nc_ht=scontent.fdac45-1.fna&oh=00_AfBNnarBxcR1FnTGoQm4lgFkjcS9UfB9-oDX5D3ol50vuQ&oe=6456A6B7",
         "year_of_experience": 12,
-        "number_of_recipes": 4,
+        "number_of_recipes": 3,
         "likes": 20000
       },
       {
@@ -44,7 +44,7 @@
         "name": "Stephanie Boswell",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVZGza-09AE0Ev8Kbv_BBiZrk2u5ufdn5yWAyTQO27wBUvTpAXpsg8GvWUMfDo2lk1SnM&usqp=CAU",
         "year_of_experience": 30,
-        "number_of_recipes": 300,
+        "number_of_recipes": 3,
         "likes": 35000
       }
 ]
