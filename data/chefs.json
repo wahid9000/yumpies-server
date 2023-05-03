@@ -11,6 +11,8 @@
       {
         "chef_id": 1,
         "recipe_name": "Grilled Rib Eye Steak",
+        "image": "https://www.wholesomeyum.com/wp-content/uploads/2022/12/wholesomeyum-Cast-Iron-Ribeye-Steak-Recipe-1.jpg",
+        "details": "The dish is one of the finest and popular across United States of America. Our clients loved this and regularly giving reviews and rating. We hope you will love it.",
         "ingredients": [
           "Rib eye steak",
           "Olive oil",
@@ -106,6 +108,8 @@
       {
         "chef_id": 2,
         "recipe_name": "Shrimp Scampi",
+        "image": "https://www.smalltownwoman.com/wp-content/uploads/2016/03/Shrimp-Scampi-DSC_0938-II.jpg",
+        "details": "The dish is one of the finest and popular across United States of America. Our clients loved this and regularly giving reviews and rating. We hope you will love it.",
         "ingredients": [
           "Linguine",
           "Shrimp",
@@ -180,6 +184,7 @@
     "name": "Gordon Ramsay",
     "image": "https://img.etimg.com/thumb/msid-73136477,width-650,height-488,imgsize-434090,,resizemode-75/gordon-ramsay-will-be-backing-the-project-through-his-studio-ramsay-along-with-sidecar-content-accelerator-headed-by-gail-berman-.jpg",
     "year_of_experience": 25,
+
     "number_of_recipes": 3,
     "likes": 40000,
     "details": "Gordan Ramsey is an american popular chef known for his unique flavors, successful restaurant chains, and reality shows, Flay’s culinary career is a result of his love of food. Flay’s portfolio includes being a Masterchef mentor for the French Culinary Institute, a cookbook author, a reality T.V. host, and an entrepreneur.",
@@ -187,6 +192,8 @@
       {
         "chef_id": 3,
         "recipe_name": "Southern Fried Chicken",
+        "details": "The dish is one of the finest and popular across United States of America. Our clients loved this and regularly giving reviews and rating. We hope you will love it.",
+        "image":"https://www.thecountrycook.net/wp-content/uploads/2021/02/thumbnail-Southern-Fried-Chicken-scaled.jpg",
         "ingredients": [
           "Chicken drumsticks",
           "Buttermilk",
@@ -282,6 +289,8 @@
       {
         "chef_id": 4,
         "recipe_name": "California Sushi Roll",
+        "details": "The dish is one of the finest and popular across United States of America. Our clients loved this and regularly giving reviews and rating. We hope you will love it.",
+        "image": "https://www.allrecipes.com/thmb/Hl8CAMmPLTmD3jY59Jn-Rkgk044=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/4543382-california-roll-SunnyDaysNora-1x1-1-14f1110f1d5a4078a3777d6395eb9664.jpg",
         "ingredients": [
           "Sushi rice",
           "Nori sheets",
@@ -377,6 +386,8 @@
       {
         "chef_id": 5,
         "recipe_name": "Baked Potato",
+        "details": "The dish is one of the finest and popular across United States of America. Our clients loved this and regularly giving reviews and rating. We hope you will love it.",
+        "image": "https://natashaskitchen.com/wp-content/uploads/2023/02/Baked-Potato-Recipe-SQ.jpg",
         "ingredients": [
           "Potatoes",
           "Butter",
@@ -458,6 +469,8 @@
       {
         "chef_id": 6,
         "recipe_name": "Banana Bread",
+        "details": "The dish is one of the finest and popular across United States of America. Our clients loved this and regularly giving reviews and rating. We hope you will love it.",
+        "image": "https://www.allrecipes.com/thmb/POFbIVTzNctFvvh1JIlMSRHAeZE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20144-banana-banana-bread-mfs-60-bddcb8e0caac452386de52f6fecf33db.jpg",
         "ingredients": [
           "Ripe bananas",
           "Flour",
