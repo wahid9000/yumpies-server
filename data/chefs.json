@@ -1,50 +1,546 @@
 [
-    {
-        "id": 1,
-        "name": "Bobby Flay",
-        "image": "https://cdn.britannica.com/95/172795-050-4200E6D1/Bobby-Flay.jpg",
-        "year_of_experience": 30,
-        "number_of_recipes": 3,
-        "likes": 50000
+  {
+    "id": 1,
+    "name": "Bobby Flay",
+    "image": "https://imag.bonviveur.com/el-chef-bobby-flay-posando-en-su-restaurante-amalfi.jpg",
+    "details": "Bobby Flay was born on December 10, 1964. Known for his unique flavors, successful restaurant chains, and reality shows, Flay’s culinary career is a result of his love of food. Flay’s portfolio includes being a Masterchef mentor for the French Culinary Institute, a cookbook author, a reality T.V. host, and an entrepreneur.",
+    "year_of_experience": 30,
+    "number_of_recipes": 6,
+    "likes": 50000,
+    "recipes": [
+      {
+        "chef_id": 1,
+        "recipe_name": "Grilled Rib Eye Steak",
+        "ingredients": [
+          "Rib eye steak",
+          "Olive oil",
+          "Kosher salt",
+          "Black pepper",
+          "Garlic",
+          "Rosemary sprigs"
+        ],
+        "cooking_method": "Grilling",
+        "ratings": 4.5
       },
       {
-        "id": 2,
-        "name": "Ina Garten",
-        "image": "https://www.ocregister.com/wp-content/uploads/migration/nxb/nxb9bj-b88548373z.120151104140251000ghhcq3hn.10.jpg?w=620",
-        "year_of_experience": 40,
-        "number_of_recipes": 3,
-        "likes": 30000
+        "chef_id": 1,
+        "recipe_name": "Cajun Chicken Alfredo",
+        "ingredients": [
+          "Fettuccine",
+          "Chicken breast",
+          "Heavy cream",
+          "Parmesan cheese",
+          "Garlic",
+          "Cajun seasoning"
+        ],
+        "cooking_method": "Boiling, sautéing",
+        "ratings": 4.8
       },
       {
-        "id": 3,
-        "name": "Gordon Ramsay",
-        "image": "https://www.hbgacademic.com/wp-content/uploads/2017/06/GR.jpg?resize=500%2C700",
-        "year_of_experience": 25,
-        "number_of_recipes": 3,
-        "likes": 40000
+        "chef_id": 1,
+        "recipe_name": "BBQ Pulled Pork Sandwich",
+        "ingredients": [
+          "Pork shoulder",
+          "BBQ sauce",
+          "Brown sugar",
+          "Cider vinegar",
+          "Worcestershire sauce",
+          "Hamburger buns"
+        ],
+        "cooking_method": "Slow cooking, shredding",
+        "ratings": 4.3
       },
       {
-        "id": 4,
-        "name": "Mario Batali",
-        "image": "https://www.naplesillustrated.com/wp-content/uploads/sites/82/2016/05/mario-batali-6.jpg",
-        "year_of_experience": 25,
-        "number_of_recipes": 3,
-        "likes": 25000
+        "chef_id": 1,
+        "recipe_name": "Grilled T-Bone Steak",
+        "ingredients": [
+          "T-Bone steak",
+          "Kosher salt",
+          "Black pepper",
+          "Garlic powder",
+          "Olive oil",
+          "Lemon juice"
+        ],
+        "cooking_method": "Grilling",
+        "ratings": 4.6
       },
       {
-        "id": 5,
-        "name": "Stephanie Izard",
-        "image": "https://scontent.fdac45-1.fna.fbcdn.net/v/t39.30808-6/272681235_487403736074293_2270649130713777546_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEtARQLPUpBvbM-F8A5HKiGkCz8o9K4OVSQLPyj0rg5VFIUXmLckalSUQ9DHNebzu2JuhSnAM_t4JoR7z2HOR1_&_nc_ohc=Nhms_sE3-c0AX-Uc5Ph&_nc_ht=scontent.fdac45-1.fna&oh=00_AfBNnarBxcR1FnTGoQm4lgFkjcS9UfB9-oDX5D3ol50vuQ&oe=6456A6B7",
-        "year_of_experience": 12,
-        "number_of_recipes": 3,
-        "likes": 20000
+        "chef_id": 1,
+        "recipe_name": "Tomahawk Steak",
+        "ingredients": [
+          "Tomahawk steak",
+          "Kosher salt",
+          "Black pepper",
+          "Garlic powder",
+          "Thyme",
+          "Butter"
+        ],
+        "cooking_method": "Grilling, oven roasting",
+        "ratings": 4.7
       },
       {
-        "id": 6,
-        "name": "Stephanie Boswell",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVZGza-09AE0Ev8Kbv_BBiZrk2u5ufdn5yWAyTQO27wBUvTpAXpsg8GvWUMfDo2lk1SnM&usqp=CAU",
-        "year_of_experience": 30,
-        "number_of_recipes": 3,
-        "likes": 35000
+        "chef_id": 1,
+        "recipe_name": "Prime Rib Roast",
+        "ingredients": [
+          "Prime rib roast",
+          "Kosher salt",
+          "Black pepper",
+          "Garlic",
+          "Thyme",
+          "Rosemary"
+        ],
+        "cooking_method": "Oven roasting",
+        "ratings": 4.8
       }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Cat Cora",
+    "image": "https://cdn.vox-cdn.com/thumbor/E9WJsBnm0ql1IziDKRrghJarnBw=/0x0:1280x852/1200x800/filters:focal(432x133:636x337)/cdn.vox-cdn.com/uploads/chorus_image/image/52718993/IMG_1466.0.jpeg",
+    "details": "Cat Cora is an American Popular chef Known for her unique flavors, successful restaurant chains, and reality shows, Flay’s culinary career is a result of his love of food. Flay’s portfolio includes being a Masterchef mentor for the French Culinary Institute, a cookbook author, a reality T.V. host, and an entrepreneur.",
+    "year_of_experience": 12,
+    "number_of_recipes": 3,
+    "likes": 300,
+    "recipes": [
+      {
+        "chef_id": 2,
+        "recipe_name": "Shrimp Scampi",
+        "ingredients": [
+          "Linguine",
+          "Shrimp",
+          "Butter",
+          "Garlic",
+          "Lemon juice",
+          "Parsley"
+        ],
+        "cooking_method": "Sautéing",
+        "ratings": 4.6
+      },
+      {
+        "chef_id": 2,
+        "recipe_name": "Mac and Cheese",
+        "ingredients": [
+          "Elbow macaroni",
+          "Cheddar cheese",
+          "Butter",
+          "Milk",
+          "Flour",
+          "Breadcrumbs"
+        ],
+        "cooking_method": "Boiling, baking",
+        "ratings": 4.4
+      },
+      {
+        "chef_id": 2,
+        "recipe_name": "England Clam Chowder",
+        "ingredients": [
+          "Clams",
+          "Bacon",
+          "Potatoes",
+          "Onion",
+          "Heavy cream",
+          "Thyme"
+        ],
+        "cooking_method": "Boiling, simmering",
+        "ratings": 4.7
+      },
+      {
+        "chef_id": 2,
+        "recipe_name": "Skirt Steak Fajitas",
+        "ingredients": [
+          "Skirt steak",
+          "Lime juice",
+          "Olive oil",
+          "Garlic",
+          "Cumin",
+          "Chili powder"
+        ],
+        "cooking_method": "Grilling, sautéing",
+        "ratings": 4.5
+      },
+      {
+        "chef_id": 2,
+        "recipe_name": "Beef Wellington",
+        "ingredients": [
+          "Filet mignon",
+          "Puff pastry",
+          "Mushrooms",
+          "Shallots",
+          "Garlic",
+          "Dijon mustard"
+        ],
+        "cooking_method": "Sautéing, oven baking",
+        "ratings": 4.9
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Gordon Ramsay",
+    "image": "https://img.etimg.com/thumb/msid-73136477,width-650,height-488,imgsize-434090,,resizemode-75/gordon-ramsay-will-be-backing-the-project-through-his-studio-ramsay-along-with-sidecar-content-accelerator-headed-by-gail-berman-.jpg",
+    "year_of_experience": 25,
+    "number_of_recipes": 3,
+    "likes": 40000,
+    "details": "Gordan Ramsey is an american popular chef known for his unique flavors, successful restaurant chains, and reality shows, Flay’s culinary career is a result of his love of food. Flay’s portfolio includes being a Masterchef mentor for the French Culinary Institute, a cookbook author, a reality T.V. host, and an entrepreneur.",
+    "recipes": [
+      {
+        "chef_id": 3,
+        "recipe_name": "Southern Fried Chicken",
+        "ingredients": [
+          "Chicken drumsticks",
+          "Buttermilk",
+          "Flour",
+          "Paprika",
+          "Garlic powder",
+          "Cayenne pepper"
+        ],
+        "cooking_method": "Frying",
+        "ratings": 4.2
+      },
+      {
+        "chef_id": 3,
+        "recipe_name": "Beef Chili",
+        "ingredients": [
+          "Ground beef",
+          "Kidney beans",
+          "Tomatoes",
+          "Onion",
+          "Bell pepper",
+          "Chili powder"
+        ],
+        "cooking_method": "Simmering",
+        "ratings": 4.5
+      },
+      {
+        "chef_id": 3,
+        "recipe_name": "Buffalo Chicken Wings",
+        "ingredients": [
+          "Chicken wings",
+          "Hot sauce",
+          "Butter",
+          "Garlic powder",
+          "Ranch dressing",
+          "Celery sticks"
+        ],
+        "cooking_method": "Frying, tossing",
+        "ratings": 4.9
+      },
+      {
+        "chef_id": 3,
+        "recipe_name": "Cast Iron Ribeye Steak",
+        "ingredients": [
+          "Ribeye steak",
+          "Butter",
+          "Garlic",
+          "Thyme",
+          "Rosemary",
+          "Kosher salt"
+        ],
+        "cooking_method": "Cast iron searing, oven roasting",
+        "ratings": 4.7
+      },
+      {
+        "chef_id": 3,
+        "recipe_name": "Bourbon Glazed Ribeye Steak",
+        "ingredients": [
+          "Ribeye steak",
+          "Bourbon",
+          "Brown sugar",
+          "Soy sauce",
+          "Garlic",
+          "Worcestershire sauce"
+        ],
+        "cooking_method": "Grilling, glazing",
+        "ratings": 4.6
+      },
+      {
+        "chef_id": 3,
+        "recipe_name": "Grilled Flank Steak",
+        "ingredients": [
+          "Flank steak",
+          "Olive oil",
+          "Garlic",
+          "Soy sauce",
+          "Lime juice",
+          "Cilantro"
+        ],
+        "cooking_method": "Grilling",
+        "ratings": 4.4
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Grant Achatz",
+    "image": "https://x9x6y4p2.stackpathcdn.com/wp-content/uploads/2016/06/grant-achatz-50-best-interview-1000x600.jpg",
+    "year_of_experience": 15,
+    "number_of_recipes": 5,
+    "details": "Grant Achatz is a popular american Chef Known for his unique flavors, successful restaurant chains, and reality shows, Flay’s culinary career is a result of his love of food. Flay’s portfolio includes being a Masterchef mentor for the French Culinary Institute, a cookbook author, a reality T.V. host, and an entrepreneur.",
+    "likes": 25000,
+    "recipes": [
+      {
+        "chef_id": 4,
+        "recipe_name": "California Sushi Roll",
+        "ingredients": [
+          "Sushi rice",
+          "Nori sheets",
+          "Imitation crab",
+          "Cucumber",
+          "Avocado",
+          "Sesame seeds"
+        ],
+        "cooking_method": "Rolling, slicing",
+        "ratings": 4.6
+      },
+      {
+        "chef_id": 4,
+        "recipe_name": "Philly Cheesesteak",
+        "ingredients": [
+          "Rib eye steak",
+          "Hoagie rolls",
+          "Onion",
+          "Green bell pepper",
+          "Provolone cheese",
+          "Mayonnaise"
+        ],
+        "cooking_method": "Sautéing, grilling",
+        "ratings": 4.3
+      },
+      {
+        "chef_id": 4,
+        "recipe_name": "Pecan Pie",
+        "ingredients": [
+          "Pie crust",
+          "Pecans",
+          "Brown sugar",
+          "Corn syrup",
+          "Butter",
+          "Vanilla extract"
+        ],
+        "cooking_method": "Baking",
+        "ratings": 4.7
+      },
+      {
+        "chef_id": 4,
+        "recipe_name": "Beef Skewers",
+        "ingredients": [
+          "Beef sirloin",
+          "Red bell pepper",
+          "Yellow onion",
+          "Zucchini",
+          "Olive oil",
+          "Garlic"
+        ],
+        "cooking_method": "Grilling",
+        "ratings": 4.3
+      },
+      {
+        "chef_id": 4,
+        "recipe_name": "Marinated London Broil",
+        "ingredients": [
+          "London broil",
+          "Soy sauce",
+          "Brown sugar",
+          "Garlic",
+          "Ginger",
+          "Olive oil"
+        ],
+        "cooking_method": "Grilling, broiling",
+        "ratings": 4.5
+      },
+      {
+        "chef_id": 4,
+        "recipe_name": "Pepper Steak",
+        "ingredients": [
+          "Sirloin steak",
+          "Green bell pepper",
+          "Red onion",
+          "Garlic",
+          "Ginger",
+          "Soy sauce"
+        ],
+        "cooking_method": "Stir-frying",
+        "ratings": 4.2
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Chef Judi Joo",
+    "image": "https://images.prestigeonline.com/wp-content/uploads/sites/3/2021/08/11160305/Copy-of-Judy-Joo-by-Emli_Bendixen_126-1256x900.jpg",
+    "details": "Chef Judi Joo is a Korean American Chef Known for her unique flavors, successful restaurant chains, and reality shows, Flay’s culinary career is a result of his love of food. Flay’s portfolio includes being a Masterchef mentor for the French Culinary Institute, a cookbook author, a reality T.V. host, and an entrepreneur.",
+    "year_of_experience": 12,
+    "number_of_recipes": 4,
+    "likes": 20000,
+    "recipes": [
+      {
+        "chef_id": 5,
+        "recipe_name": "Baked Potato",
+        "ingredients": [
+          "Potatoes",
+          "Butter",
+          "Sour cream",
+          "Cheddar cheese",
+          "Bacon",
+          "Chives"
+        ],
+        "cooking_method": "Baking",
+        "ratings": 4.2
+      },
+      {
+        "chef_id": 5,
+        "recipe_name": "Chicago Deep Dish Pizza",
+        "ingredients": [
+          "Pizza dough",
+          "Mozzarella cheese",
+          "Tomato sauce",
+          "Italian sausage",
+          "Pepperoni",
+          "Green bell pepper"
+        ],
+        "cooking_method": "Baking",
+        "ratings": 4.8
+      },
+      {
+        "chef_id": 5,
+        "recipe_name": "Fried Catfish",
+        "ingredients": [
+          "Catfish fillets",
+          "Cornmeal",
+          "Flour",
+          "Cajun seasoning",
+          "Hot sauce",
+          "Lemon wedges"
+        ],
+        "cooking_method": "Frying",
+        "ratings": 4.5
+      },
+      {
+        "chef_id": 5,
+        "recipe_name": "Steakhouse Salad",
+        "ingredients": [
+          "Sirloin steak",
+          "Mixed greens",
+          "Blue cheese",
+          "Cherry tomatoes",
+          "Red onion",
+          "Balsamic vinaigrette"
+        ],
+        "cooking_method": "Grilling",
+        "ratings": 4.1
+      },
+      {
+        "chef_id": 5,
+        "recipe_name": "Beef Stroganoff",
+        "ingredients": [
+          "Beef sirloin",
+          "Egg noodles",
+          "Sour cream",
+          "Onion",
+          "Mushrooms",
+          "Beef broth"
+        ],
+        "cooking_method": "Sautéing, sauce making",
+        "ratings": 4.4
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Stephanie Boswell",
+    "image": "http://blog.uniquehomes.com/wp-content/uploads/2018/07/THE-PENINSULA-0667Stephanie-2.jpg",
+    "year_of_experience": 30,
+    "number_of_recipes": 4,
+    "details": "Stephanie Boswell ia an american popular chef known for her unique flavors, successful restaurant chains, and reality shows, Flay’s culinary career is a result of his love of food. Flay’s portfolio includes being a Masterchef mentor for the French Culinary Institute, a cookbook author, a reality T.V. host, and an entrepreneur.",
+    "likes": 35000,
+    "recipes": [
+      {
+        "chef_id": 6,
+        "recipe_name": "Banana Bread",
+        "ingredients": [
+          "Ripe bananas",
+          "Flour",
+          "Sugar",
+          "Egg",
+          "Butter",
+          "Baking soda"
+        ],
+        "cooking_method": "Baking",
+        "ratings": 4.4
+      },
+      {
+        "chef_id": 6,
+        "recipe_name": "England Clam Chowder",
+        "ingredients": [
+          "Clams",
+          "Bacon",
+          "Potatoes",
+          "Onion",
+          "Celery",
+          "Heavy cream"
+        ],
+        "cooking_method": "Simmering",
+        "ratings": 4.2
+      },
+      {
+        "chef_id": 6,
+        "recipe_name": "Cajun Shrimp Pasta",
+        "ingredients": [
+          "Shrimp",
+          "Penne pasta",
+          "Heavy cream",
+          "Butter",
+          "Garlic",
+          "Cajun seasoning"
+        ],
+        "cooking_method": "Boiling, sautéing",
+        "ratings": 4.7
+      },
+      {
+        "chef_id": 6,
+        "recipe_name": "England Clam Chowder",
+        "ingredients": [
+          "Clams",
+          "Bacon",
+          "Potatoes",
+          "Onion",
+          "Celery",
+          "Heavy cream"
+        ],
+        "cooking_method": "Simmering",
+        "ratings": 4.2
+      },
+      {
+        "chef_id": 6,
+        "recipe_name": "Bacon Cheeseburger",
+        "ingredients": [
+          "Ground beef",
+          "Bacon",
+          "Cheddar cheese",
+          "Lettuce",
+          "Tomato & Onion",
+          
+          "Burger bun"
+        ],
+        "cooking_method": "Grilling",
+        "ratings": 4.5
+      },
+      {
+        "chef_id": 6,
+        "recipe_name": "Pepperoni Pizza",
+        "ingredients": [
+          "Pizza dough",
+          "Tomato sauce",
+          "Mozzarella cheese",
+          "Onion",
+          "Pepperoni",
+          "Lettuce"
+        ],
+        "cooking_method": "Baking",
+        "ratings": 4.2
+      }
+
+    ]
+  }
 ]
